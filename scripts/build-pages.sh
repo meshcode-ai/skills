@@ -52,7 +52,7 @@ done
       [ -f "$d/SKILL.md" ] || continue
       name=$(basename "$d")
       desc=$(awk '/^description:/{sub(/^description: */,""); print; exit}' "$d/SKILL.md" | cut -c1-160)
-      echo "- [$name](https://meshcode-ai.github.io/skills/skills/$name/SKILL.md): $desc"
+      echo "- [$name](https://skills.meshcode.ai/skills/$name/SKILL.md): $desc"
     done
     echo ''
   done
@@ -95,7 +95,7 @@ echo "built: $(ls "$MIRROR" | wc -l | tr -d ' ') skills mirrored, index.json=$(w
 python3 - <<'PY'
 import os, datetime
 today = datetime.date.today().isoformat()
-base = "https://meshcode-ai.github.io/skills"
+base = "https://skills.meshcode.ai"
 urls = [f"{base}/", f"{base}/llms.txt", f"{base}/index.json"]
 for d in sorted(os.listdir("skills/skills")):
     if os.path.isfile(f"skills/skills/{d}/SKILL.md"):

@@ -131,7 +131,7 @@ Manual: download any repo zip → extract into your project's `.meshcode/skills/
 ## Search & AI visibility
 
 - Skill index for agents: [`index.json`](index.json) · AI-readable catalog: [`llms.txt`](llms.txt) · AI crawlers: fully allowed ([`robots.txt`](robots.txt))
-- Each skill page is individually linkable: `https://meshcode-ai.github.io/skills/skills/<name>/SKILL.md`
+- Each skill page is individually linkable: `https://skills.meshcode.ai/skills/<name>/SKILL.md`
 
 ## Standard
 
