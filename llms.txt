@@ -1,0 +1,98 @@
+# meshcode-ai skills
+
+> Agent Skills for business: SEO/AEO, marketing, copy, operations, planning, research, executive. Knowledge-first, ~2KB per skill, works with meshcode, Claude Code, Codex, Cursor (agentskills.io standard). Install: download repo zip into your project `.meshcode/skills/`.
+
+## [meshcode-ai/skills-seo](https://github.com/meshcode-ai/skills-seo)
+
+- [seo-aeo-geo](https://meshcode-ai.github.io/skills/skills/seo-aeo-geo/SKILL.md): AI search optimization (AEO/GEO) — AI Overviews, ChatGPT search, Perplexity visibility. Citability, brand-mention strategy, AI crawler access, platform-specific
+- [seo-audit](https://meshcode-ai.github.io/skills/skills/seo-audit/SKILL.md): Full SEO/AEO audit orchestrator — runs technical, content, schema, backlink, local, AI-search checks in one pass and merges a prioritized report. Use when user 
+- [seo-backlinks](https://meshcode-ai.github.io/skills/skills/seo-backlinks/SKILL.md): Backlink profile analysis — referring domains, anchor text distribution, toxic link detection, competitor link gap. Works with free sources (Common Crawl, Moz f
+- [seo-content-eeat](https://meshcode-ai.github.io/skills/skills/seo-content-eeat/SKILL.md): Content quality and E-E-A-T analysis — Google's Who/How/Why test, thin-content detection, AI-citation readiness, AI-typical phrasing and invisible Unicode water
+- [seo-local](https://meshcode-ai.github.io/skills/skills/seo-local/SKILL.md): Local SEO — Google Business Profile optimization, NAP consistency, citation health, review signals, LocalBusiness schema, multi-location and service-area busine
+- [seo-schema](https://meshcode-ai.github.io/skills/skills/seo-schema/SKILL.md): Detect, validate, and generate Schema.org structured data as JSON-LD — organization/product/FAQ/article/local-business templates, validation against schema.org 
+- [seo-technical-audit](https://meshcode-ai.github.io/skills/skills/seo-technical-audit/SKILL.md): Technical SEO audit — crawlability, indexability, robots.txt/sitemap, Core Web Vitals (INP), JS rendering, security headers, AI crawler management. Use when use
+
+## [meshcode-ai/skills-marketing](https://github.com/meshcode-ai/skills-marketing)
+
+- [mkt-ad-creative](https://meshcode-ai.github.io/skills/skills/mkt-ad-creative/SKILL.md): Ad creative strategy — angles, hooks, formats, iteration matrix for paid ads at scale. Use when user says "ad creative", "ad copy ideas", "_hooks", "creative te
+- [mkt-analytics](https://meshcode-ai.github.io/skills/skills/mkt-analytics/SKILL.md): Analytics measurement plan — event tracking design, GA4 structure, KPI tree, data quality audit. Use when user says "analytics setup", "event tracking", "measur
+- [mkt-attribution](https://meshcode-ai.github.io/skills/skills/mkt-attribution/SKILL.md): Attribution modeling — figures out which channels and touchpoints actually drive conversions and revenue. Use when user says "attribution", "which channel works
+- [mkt-churn-prevention](https://meshcode-ai.github.io/skills/skills/mkt-churn-prevention/SKILL.md): Churn reduction — cancellation flows, save offers, dunning/payment recovery, health scoring. Use when user says "reduce churn", "cancellation flow", "save offer
+- [mkt-community](https://meshcode-ai.github.io/skills/skills/mkt-community/SKILL.md): Community-led growth — picks platform, seeds members, sets ritual and moderation, ties community to product metrics. Use when user says "community strategy", "D
+- [mkt-comparisons](https://meshcode-ai.github.io/skills/skills/mkt-comparisons/SKILL.md): Comparison and alternative pages — builds "{competitor} alternative" pages, versus tables, migration guides for SEO and sales enablement. Use when user says "co
+- [mkt-competitor-profiling](https://meshcode-ai.github.io/skills/skills/mkt-competitor-profiling/SKILL.md): Competitor research and profiling — URL-based teardown of positioning, pricing, channels, weaknesses, and strategic gaps. Use when user says "competitor analysi
+- [mkt-cro](https://meshcode-ai.github.io/skills/skills/mkt-cro/SKILL.md): Conversion rate optimization for a specific page, form, or flow — audits friction, prioritizes fixes, designs experiments. Use when user says "CRO", "increase c
+- [mkt-email-sequences](https://meshcode-ai.github.io/skills/skills/mkt-email-sequences/SKILL.md): Email sequence design — welcome, nurture, cart abandonment, re-engagement flows with timing, cadence, and copy structure. Use when user says "email sequence", "
+- [mkt-funnel-audit](https://meshcode-ai.github.io/skills/skills/mkt-funnel-audit/SKILL.md): Funnel journey diagnosis — maps stages, quantifies drop-off, finds the leaking step and prioritizes fixes. Use when user says "funnel analysis", "funnel audit",
+- [mkt-google-ads](https://meshcode-ai.github.io/skills/skills/mkt-google-ads/SKILL.md): Google Ads strategy — campaign structure, keyword intent tiers, match types, bid budgets, Quality Score, Performance Max judgment. Use when user says "Google Ad
+- [mkt-growth-loops](https://meshcode-ai.github.io/skills/skills/mkt-growth-loops/SKILL.md): Growth loops — designs self-reinforcing cycles where output becomes new input (usage → sharing → new users). Use when user says "growth loop", "viral loop", "se
+- [mkt-launch](https://meshcode-ai.github.io/skills/skills/mkt-launch/SKILL.md): Product/feature launch — T-minus timeline, channel sequencing, messaging house, launch tiering. Use when user says "product launch", "launch plan", "feature ann
+- [mkt-marketing-psychology](https://meshcode-ai.github.io/skills/skills/mkt-marketing-psychology/SKILL.md): Behavioral psychology for marketing — cognitive biases, persuasion principles, ethical application checklist. Use when user says "marketing psychology", "persua
+- [mkt-meta-ads](https://meshcode-ai.github.io/skills/skills/mkt-meta-ads/SKILL.md): Meta (Facebook/Instagram) ads — campaign structure, creative-first testing, audience layers, signal/CAPI setup, budget scaling. Use when user says "Meta ads", "
+- [mkt-offers](https://meshcode-ai.github.io/skills/skills/mkt-offers/SKILL.md): Offer design — value stacking, risk reversal, guarantee, pricing frame, urgency construction. Use when user says "offer", "make an offer", "value stack", "guara
+- [mkt-onboarding](https://meshcode-ai.github.io/skills/skills/mkt-onboarding/SKILL.md): User activation and onboarding optimization — time-to-value, aha moment, first-run flow, checklist design. Use when user says "onboarding", "activation", "first
+- [mkt-pricing](https://meshcode-ai.github.io/skills/skills/mkt-pricing/SKILL.md): Pricing and packaging — model selection, tier design, WTP research, price change plans. Use when user says "pricing strategy", "pricing model", "packaging", "WT
+- [mkt-product-marketing](https://meshcode-ai.github.io/skills/skills/mkt-product-marketing/SKILL.md): Product marketing foundation — positioning, ICP definition, messaging house, competitive narrative. Use when user says "product marketing", "positioning", "ICP"
+- [mkt-referrals](https://meshcode-ai.github.io/skills/skills/mkt-referrals/SKILL.md): Referral and affiliate program design — incentive structure, double-sided rewards, fraud prevention, launch plan. Use when user says "referral program", "refer 
+
+## [meshcode-ai/skills-copy](https://github.com/meshcode-ai/skills-copy)
+
+- [copy-brand-voice](https://meshcode-ai.github.io/skills/skills/copy-brand-voice/SKILL.md): Brand voice — voice guidelines, tone-by-channel adaptation, and before/after rewrites that keep identity consistent across pages, emails, and posts. Use when us
+- [copy-cold-email](https://meshcode-ai.github.io/skills/skills/copy-cold-email/SKILL.md): Cold email writing — subject lines, one-line personalization, value-first body, single CTA, and follow-up cadence for outbound prospecting. Use when user says "
+- [copy-content-brief](https://meshcode-ai.github.io/skills/skills/copy-content-brief/SKILL.md): Content brief creation — SERP gap analysis, search intent, outline with H2/H3, sources, tone, and acceptance criteria for writers and AI drafts. Use when user s
+- [copy-content-strategy](https://meshcode-ai.github.io/skills/skills/copy-content-strategy/SKILL.md): Content strategy — pillar selection, channel/format matrix, 80-10-10 mix, distribution-first planning, and a 90-day calendar. Use when user says "content strate
+- [copy-copy-editing](https://meshcode-ai.github.io/skills/skills/copy-copy-editing/SKILL.md): Copy editing — three-pass structural/line/final edit, weak-verb replacement, redundancy deletion, and a pre-publish checklist for any drafted text. Use when use
+- [copy-copywriting](https://meshcode-ai.github.io/skills/skills/copy-copywriting/SKILL.md): Copywriting frameworks — AIDA, PAS, Before-After-Bridge, 4U — with selection criteria, headline formulas, feature-to-benefit translation, and CTA phrasing. Use 
+- [copy-email-sequences](https://meshcode-ai.github.io/skills/skills/copy-email-sequences/SKILL.md): Email copywriting — subject lines, preview text, skimmable body structure, and personalization for sequences and newsletters. Use when user says "email copy", "
+- [copy-humanize](https://meshcode-ai.github.io/skills/skills/copy-humanize/SKILL.md): Remove AI-sounding phrasing — cliché opener deletion, varied sentence rhythm, concrete experience injection, and a human-sounding rewrite pass. Use when user sa
+- [copy-landing-copy](https://meshcode-ai.github.io/skills/skills/copy-landing-copy/SKILL.md): Landing page copy — hero, above-the-fold structure, section order, benefit stack, and CTA copy for product pages, with message match from ad to page. Use when u
+- [copy-pr-outreach](https://meshcode-ai.github.io/skills/skills/copy-pr-outreach/SKILL.md): PR outreach — newsworthiness test, press release structure, journalist pitch emails, embargo notes, and follow-up rules. Use when user says "press release", "me
+
+## [meshcode-ai/skills-ops](https://github.com/meshcode-ai/skills-ops)
+
+- [ops-capacity-planner](https://meshcode-ai.github.io/skills/skills/ops-capacity-planner/SKILL.md): Size an ops team (support, CX, IT, finance ops) that handles queued work — utilization bands, demand P90, shrinkage-adjusted FTE, hiring sequence. Use when user
+- [ops-compliance-checklist](https://meshcode-ai.github.io/skills/skills/ops-compliance-checklist/SKILL.md): Build a compliance checklist and evidence plan for an audit or policy rollout — control mapping, evidence cadence, and audit-readiness verdict. Use when user sa
+- [ops-internal-comms](https://meshcode-ai.github.io/skills/skills/ops-internal-comms/SKILL.md): Draft a sequenced internal change announcement — re-org, tool rollout, policy change, layoff — with manager cascade, FAQ, and a touchpoint calendar. Use when us
+- [ops-knowledge-ops](https://meshcode-ai.github.io/skills/skills/ops-knowledge-ops/SKILL.md): Audit and clean up a company wiki — stale and orphan pages, missing owners, glossary drift, and a ranked top-20 cleanup list. Validate runbooks before they go i
+- [ops-meetings](https://meshcode-ai.github.io/skills/skills/ops-meetings/SKILL.md): Design meetings that earn their cost — decide the type, build a decision-grade agenda with DRI, and calculate the burn rate. Use when user says "meeting agenda"
+- [ops-process-mapper](https://meshcode-ai.github.io/skills/skills/ops-process-mapper/SKILL.md): Map an end-to-end business process (procurement, onboarding, incident handoff, approvals) in BPMN-style swimlanes, measure cycle time, and rank bottlenecks by s
+- [ops-procurement](https://meshcode-ai.github.io/skills/skills/ops-procurement/SKILL.md): Annual spend audit and supplier rationalization — categorize spend, find the Pareto-20% driving cost, detect duplicate tools, and plan risk-balanced consolidati
+- [ops-project-planning](https://meshcode-ai.github.io/skills/skills/ops-project-planning/SKILL.md): Turn a goal into an executable project plan — WBS, critical path, buffer rules, RACI, RAID log, and milestone acceptance criteria. Use when user says "project p
+- [ops-sop-builder](https://meshcode-ai.github.io/skills/skills/ops-sop-builder/SKILL.md): Author a standard operating procedure (SOP) that an operator can execute without asking anyone — 5W2H structure, observable success signals, rollback and escala
+- [ops-vendor-management](https://meshcode-ai.github.io/skills/skills/ops-vendor-management/SKILL.md): Score and review third-party vendors — multi-dimensional vendor scorecard, SLA compliance, third-party risk classification, and a defensible KEEP/REVIEW/REPLACE
+
+## [meshcode-ai/skills-biz](https://github.com/meshcode-ai/skills-biz)
+
+- [biz-business-plan](https://meshcode-ai.github.io/skills/skills/biz-business-plan/SKILL.md): Structures a business plan or lean canvas — problem, solution, market, moat, GTM, 3-scenario financials — with an explicit assumption register and milestones. U
+- [biz-competitor-profiling](https://meshcode-ai.github.io/skills/skills/biz-competitor-profiling/SKILL.md): Profiles direct, indirect, substitute, and potential competitors — feature-pricing matrix, positioning map from customer language, and recent-signal tracking to
+- [biz-market-sizing](https://meshcode-ai.github.io/skills/skills/biz-market-sizing/SKILL.md): Estimates market size with TAM/SAM/SOM using top-down, bottom-up, and analogous-market methods, then triangulates into a defensible range with sensitivity scena
+- [biz-offer-design](https://meshcode-ai.github.io/skills/skills/biz-offer-design/SKILL.md): Builds a one-line value proposition and stacks offer components — core deliverable, bonuses, guarantee/risk reversal, scarcity — with tiered packaging aligned t
+- [biz-prd](https://meshcode-ai.github.io/skills/skills/biz-prd/SKILL.md): Writes a PRD from an idea, meeting notes, or existing code — problem, goals/non-goals, user stories, FR/NFR, success metrics, MoSCoW priority, and acceptance cr
+- [biz-pricing-strategy](https://meshcode-ai.github.io/skills/skills/biz-pricing-strategy/SKILL.md): Chooses among cost-plus, value-based, and competitor-based pricing, picks skimming vs penetration vs premium strategy, and sets a three-point price band with A/
+- [biz-segmentation](https://meshcode-ai.github.io/skills/skills/biz-segmentation/SKILL.md): Segments a market using Kotler's five criteria (measurable, substantial, accessible, differentiable, actionable), scores segment attractiveness, and picks one t
+- [biz-unit-economics](https://meshcode-ai.github.io/skills/skills/biz-unit-economics/SKILL.md): Computes LTV, CAC, payback period, and contribution margin, applies the LTV:CAC ≥ 3 and payback ≤ 12 months thresholds, and finds which lever (price, churn, CAC
+
+## [meshcode-ai/skills-research](https://github.com/meshcode-ai/skills-research)
+
+- [res-competitor-research](https://meshcode-ai.github.io/skills/skills/res-competitor-research/SKILL.md): Competitor research — systematic profiling of rivals' product, pricing, positioning, GTM, and moat with evidence-graded comparison tables. Use when user says "c
+- [res-customer-research](https://meshcode-ai.github.io/skills/skills/res-customer-research/SKILL.md): Customer and user research — interview guides, JTBD framing, evidence-based insight synthesis, and bias controls. Use when user says "customer research", "user 
+- [res-deep-research](https://meshcode-ai.github.io/skills/skills/res-deep-research/SKILL.md): Multi-source deep research with citation-grade synthesis — frames the question, gathers primary/official sources, resolves conflicts, delivers a sourced verdict
+- [res-dossier](https://meshcode-ai.github.io/skills/skills/res-dossier/SKILL.md): Structured dossier building — entity briefing packs on companies or people with verified facts, timeline, network map, and open questions. Use when user says "d
+- [res-litreview](https://meshcode-ai.github.io/skills/skills/res-litreview/SKILL.md): Structured literature review — search strategy, inclusion/exclusion screening, quality appraisal, and synthesis map of a research field. Use when user says "lit
+- [res-patent-landscape](https://meshcode-ai.github.io/skills/skills/res-patent-landscape/SKILL.md): Patent landscape and freedom-to-operate analysis — IPC/CPC classification mapping, assignee and citation clustering, white-space and risk screening. Use when us
+- [res-research-brief](https://meshcode-ai.github.io/skills/skills/res-research-brief/SKILL.md): Research brief writing — turns a fuzzy topic into a scoped, decision-oriented brief with questions, success criteria, and an executable plan others can run. Use
+- [res-survey-design](https://meshcode-ai.github.io/skills/skills/res-survey-design/SKILL.md): Survey and questionnaire design — sampling plan, sample-size math, question wording, order and non-response bias checks, analysis-ready instrument. Use when use
+
+## [meshcode-ai/skills-exec](https://github.com/meshcode-ai/skills-exec)
+
+- [exec-decision-memo](https://meshcode-ai.github.io/skills/skills/exec-decision-memo/SKILL.md): Structures executive decisions — option set, reversibility test, weighted criteria, premortem, and a reviewable decision record. Use when user says "decision me
+- [exec-executive-mentor](https://meshcode-ai.github.io/skills/skills/exec-executive-mentor/SKILL.md): Executive mentoring for founders and C-level leaders — delegation levels, decision rights, calendar triage, and effective 1:1 cadence. Use when user says "execu
+- [exec-investor-update](https://meshcode-ai.github.io/skills/skills/exec-investor-update/SKILL.md): Writes monthly investor updates — highlights, lowlights, metric tables, and specific asks — with consistent metric definitions and runway narrative. Use when us
+- [exec-leadership-comm](https://meshcode-ai.github.io/skills/skills/exec-leadership-comm/SKILL.md): Executive communication — all-hands messaging, crisis response principles, and change announcements that reduce rumor and resistance. Use when user says "all-ha
+- [fin-forecast](https://meshcode-ai.github.io/skills/skills/fin-forecast/SKILL.md): Forecasts revenue — baseline plus weighted pipeline, commit/best-case categories, forecast accuracy tracking, and 13-week cash flow linkage. Use when user says 
+- [fin-negotiation](https://meshcode-ai.github.io/skills/skills/fin-negotiation/SKILL.md): Prepares negotiations — BATNA and ZOPA analysis, anchoring with justification bands, give-get tradeoffs, and discount governance. Use when user says "negotiatio
+- [fin-prospecting](https://meshcode-ai.github.io/skills/skills/fin-prospecting/SKILL.md): Defines ICP from top-customer cohorts, builds scored target lists, mixes outbound channels with experiments, and computes the activity math to hit pipeline goal
+- [fin-revops](https://meshcode-ai.github.io/skills/skills/fin-revops/SKILL.md): Aligns sales, marketing, and CS operations — single metric definitions, CRM hygiene rules, funnel number reconciliation, and a weekly reporting rhythm. Use when
+- [fin-sales-enablement](https://meshcode-ai.github.io/skills/skills/fin-sales-enablement/SKILL.md): Builds sales enablement assets — MEDDICC qualification scoring, discovery question sets, demo-to-value flow, and a one-page proposal structure. Use when user sa
+- [fin-sales-pipeline](https://meshcode-ai.github.io/skills/skills/fin-sales-pipeline/SKILL.md): Manages the sales pipeline — buyer-evidence stage criteria, pipeline coverage ratio (3x), sales velocity formula, win rate consistency, and stalled deal cleanup
+
