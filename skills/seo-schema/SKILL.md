@@ -1,6 +1,6 @@
 ---
 name: seo-schema
-description: Detect, validate, and generate Schema.org structured data as JSON-LD — organization/product/FAQ/article/local-business templates, validation against schema.org + rich-result requirements. Use when user says "schema", "structured data", "rich results", "JSON-LD", or "markup".
+description: Detect, validate, and generate Schema.org structured data as JSON-LD — organization/product/FAQ/article/local-business templates, validation against schema.org + rich-result requirements. Use when user says "schema", "structured data", "rich results", "JSON-LD", or "markup". Also use when the user asks about rich results, star ratings in search, or wants Google to better understand their page structure.
 license: MIT
 metadata:
   source: "AgriciDaniel/claude-seo@v2.3.1 (MIT)"

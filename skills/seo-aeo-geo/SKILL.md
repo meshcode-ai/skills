@@ -1,6 +1,6 @@
 ---
 name: seo-aeo-geo
-description: AI search optimization (AEO/GEO) — AI Overviews, ChatGPT search, Perplexity visibility. Citability, brand-mention strategy, AI crawler access, platform-specific optimization, llms.txt reality check. Use when user says "AEO", "GEO", "AI Overviews", "AI search visibility", "AI citations", or "LLM optimization".
+description: AI search optimization (AEO/GEO) — AI Overviews, ChatGPT search, Perplexity visibility. Citability, brand-mention strategy, AI crawler access, platform-specific optimization, llms.txt reality check. Use when user says "AEO", "GEO", "AI Overviews", "AI search visibility", "AI citations", or "LLM optimization". Also use when the user asks how to show up in ChatGPT, Perplexity or AI Overviews, how to get cited by AI, or wants an AI-search visibility strategy.
 license: MIT
 metadata:
   source: "AgriciDaniel/claude-seo@v2.3.1 + zubair-trabzada/geo-seo-claude (MIT)"

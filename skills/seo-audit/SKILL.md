@@ -1,6 +1,6 @@
 ---
 name: seo-audit
-description: Full SEO/AEO audit orchestrator — runs technical, content, schema, backlink, local, AI-search checks in one pass and merges a prioritized report. Use when user says "SEO audit", or wants an overall SEO health report for a site URL.
+description: Full SEO/AEO audit orchestrator — runs technical, content, schema, backlink, local, AI-search checks in one pass and merges a prioritized report. Use when user says "SEO audit", or wants an overall SEO health report for a site URL. Also use when the user asks what to fix or improve on a site, wants a prioritized action plan, or asks why traffic or ranking is not growing.
 license: MIT
 metadata:
   source: "AgriciDaniel/claude-seo@v2.3.1 (MIT)"

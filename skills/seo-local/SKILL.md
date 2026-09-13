@@ -1,6 +1,6 @@
 ---
 name: seo-local
-description: Local SEO — Google Business Profile optimization, NAP consistency, citation health, review signals, LocalBusiness schema, multi-location and service-area businesses. Use when user says "local SEO", "Google Business Profile", "GBP", "map pack", "citations", "NAP consistency", "service area", or "multi-location".
+description: Local SEO — Google Business Profile optimization, NAP consistency, citation health, review signals, LocalBusiness schema, multi-location and service-area businesses. Use when user says "local SEO", "Google Business Profile", "GBP", "map pack", "citations", "NAP consistency", "service area", or "multi-location". Also use when the user asks how to get more local customers or store visits, how to rank in the map pack, or how to handle reviews for a physical location.
 license: MIT
 metadata:
   source: "AgriciDaniel/claude-seo@v2.3.1 (MIT)"

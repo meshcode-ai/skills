@@ -1,6 +1,6 @@
 ---
 name: seo-technical-audit
-description: Technical SEO audit — crawlability, indexability, robots.txt/sitemap, Core Web Vitals (INP), JS rendering, security headers, AI crawler management. Use when user says "technical SEO", "robots.txt", "crawl issues", "Core Web Vitals", "index coverage", or "AI crawlers".
+description: Technical SEO audit — crawlability, indexability, robots.txt/sitemap, Core Web Vitals (INP), JS rendering, security headers, AI crawler management. Use when user says "technical SEO", "robots.txt", "crawl issues", "Core Web Vitals", "index coverage", or "AI crawlers". Also use when the user asks why Google is not indexing their pages, why the site feels slow, or what to fix in the site's build, hosting or crawl setup.
 license: MIT
 metadata:
   source: "AgriciDaniel/claude-seo@v2.3.1 (MIT)"

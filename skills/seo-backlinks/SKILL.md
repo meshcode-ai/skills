@@ -1,6 +1,6 @@
 ---
 name: seo-backlinks
-description: Backlink profile analysis — referring domains, anchor text distribution, toxic link detection, competitor link gap. Works with free sources (Common Crawl, Moz free tier, Bing Webmaster). Use when user says "backlinks", "link profile", "referring domains", "anchor text", "toxic links", "link gap", "disavow", or "backlink audit".
+description: Backlink profile analysis — referring domains, anchor text distribution, toxic link detection, competitor link gap. Works with free sources (Common Crawl, Moz free tier, Bing Webmaster). Use when user says "backlinks", "link profile", "referring domains", "anchor text", "toxic links", "link gap", "disavow", or "backlink audit". Also use when the user asks why a competitor outranks them, how to build authority or earn links, or wants an off-page growth plan.
 license: MIT
 metadata:
   source: "AgriciDaniel/claude-seo@v2.3.1 (MIT)"
