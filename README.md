@@ -8,7 +8,7 @@
 
 ## Install
 
-Easiest with [meshcode](https://meshcode.ai) (free desktop app): open your project, ask in chat **"show available skills"** then **"install the marketing skills"** — it fetches from these repos automatically.
+Easiest with [meshcode](https://meshcode.ai?utm_source=github&utm_medium=org_readme&utm_campaign=gh_skills) (free desktop app): open your project, ask in chat **"show available skills"** then **"install the marketing skills"** — it fetches from these repos automatically.
 
 Manual: download any repo zip → extract into your project's `.meshcode/skills/` → done. Also works in Claude Code (`~/.claude/skills/`), Codex, and Cursor. Skills appear in the next session: only name+description load into context (~80 tokens each), the body loads when the task matches. Or use the [skill index](index.json) with meshcode's remote `skills.urls`.
 
