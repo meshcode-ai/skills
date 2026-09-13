@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# 허브 Pages 콘텐츠 빌드: 스킬 미러 + index.json + llms.txt
-# 실행: cd business/skills-repos && ./skills/scripts/build-pages.sh
+# Build hub Pages content: skill mirror + index.json + llms.txt
+# Run: cd business/skills-repos && ./skills/scripts/build-pages.sh
 set -euo pipefail
 cd "$(dirname "$0")/../.."   # business/skills-repos
 
@@ -10,7 +10,7 @@ REPOS=(skills-seo skills-marketing skills-copy skills-ops skills-biz skills-rese
 
 rm -rf "$MIRROR" && mkdir -p "$MIRROR"
 
-# 1) 스킬 미러 (Pages 서빙용 — 소스는 각 스포크 폴더)
+# 1) Skill mirror (served via Pages — sources are the spoke folders)
 for repo in "${REPOS[@]}"; do
   for d in "$repo"/*/; do
     [ -f "$d/SKILL.md" ] || continue
@@ -18,7 +18,7 @@ for repo in "${REPOS[@]}"; do
   done
 done
 
-# 2) index.json — name/description/category/files (데스크탑 스토어 + skills.urls 호환)
+# 2) index.json — name/description/category/files (desktop store + skills.urls compatible)
 {
   echo '{ "skills": ['
   first=1
@@ -38,7 +38,7 @@ done
   echo ''; echo ']}'
 } > "$HUB/index.json"
 
-# 3) llms.txt (llmstxt.org 형식 — AI 검색 인용 진입점)
+# 3) llms.txt (llmstxt.org format — AI search citation entry point)
 {
   echo '# meshcode-ai skills'
   echo ''
@@ -58,7 +58,7 @@ done
   done
 } > "$HUB/llms.txt"
 
-# 4) robots.txt — AI 크롤러 전면 개방
+# 4) robots.txt — fully open to AI crawlers
 cat > "$HUB/robots.txt" <<'EOF'
 User-agent: *
 Allow: /
@@ -91,7 +91,7 @@ EOF
 touch "$HUB/.nojekyll"
 echo "built: $(ls "$MIRROR" | wc -l | tr -d ' ') skills mirrored, index.json=$(wc -c < "$HUB/index.json" | tr -d ' ')B, llms.txt=$(wc -c < "$HUB/llms.txt" | tr -d ' ')B"
 
-# 5) sitemap.xml — 검색 제출용
+# 5) sitemap.xml — for search submission
 python3 - <<'PY'
 import os, datetime
 today = datetime.date.today().isoformat()
