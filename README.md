@@ -1,9 +1,9 @@
 # meshcode-ai/skills
 
-**73 open-source Agent Skills for business — SEO/AEO, marketing, copywriting, operations, business planning, research, and executive/finance.** Knowledge-first skills (2KB each) for Claude Code, Codex, Cursor, Gemini CLI, and meshcode, following the open [Agent Skills](https://agentskills.io/specification) standard (`SKILL.md`). Every skill is refined knowledge — frameworks, thresholds, and output contracts — not script wrappers.
+**76 open-source Agent Skills for business and code — SEO/AEO, marketing, copywriting, operations, business planning, research, executive/finance, and coding.** Knowledge-first skills (2KB each) for Claude Code, Codex, Cursor, Gemini CLI, and meshcode, following the open [Agent Skills](https://agentskills.io/specification) standard (`SKILL.md`). Every skill is refined knowledge — frameworks, thresholds, and output contracts — not script wrappers.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/skills-73-blue)](#catalog)
+[![Skills](https://img.shields.io/badge/skills-76-blue)](#catalog)
 [![Standard](https://img.shields.io/badge/agent--skills-spec-brightgreen)](https://agentskills.io/specification)
 
 ## Install
@@ -18,6 +18,7 @@ Manual: download any repo zip → extract into your project's `.meshcode/skills/
 - **Marketers & growth** — campaign audits, CRO, content strategy, AI-search visibility (AEO/GEO)
 - **Agencies & freelancers** — repeatable audit frameworks with fixed output contracts
 - **Anyone using Claude Code/Codex for business work** — not just code
+- **Devs & AI-coding-agent users** — a design gate before implementation, test-case matrices, severity-graded code review
 
 ## Catalog
 
@@ -128,6 +129,15 @@ Manual: download any repo zip → extract into your project's `.meshcode/skills/
 | `fin-revops` | Aligns sales, marketing, and CS operations |
 | `fin-sales-enablement` | Builds sales enablement assets |
 | `fin-sales-pipeline` | Manages the sales pipeline |
+
+### Coding & Dev — [`meshcode-ai/skills-coding`](https://github.com/meshcode-ai/skills-coding)
+
+| Skill | What it does |
+|---|---|
+| `dev-architecture` | System design before code — spike/bounded/architectural classification with approval gate |
+| `dev-test-design` | Test-case matrix + red-green-refactor + evidence gate |
+| `dev-code-review` | Severity-graded diff review with file:line evidence |
+
 ## Search & AI visibility
 
 - Skill index for agents: [`index.json`](index.json) · AI-readable catalog: [`llms.txt`](llms.txt) · AI crawlers: fully allowed ([`robots.txt`](robots.txt))

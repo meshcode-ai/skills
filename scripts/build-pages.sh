@@ -6,7 +6,7 @@ cd "$(dirname "$0")/../.."   # business/skills-repos
 
 HUB="skills"
 MIRROR="$HUB/skills"
-REPOS=(skills-seo skills-marketing skills-copy skills-ops skills-biz skills-research skills-exec)
+REPOS=(skills-seo skills-marketing skills-copy skills-ops skills-biz skills-research skills-exec skills-coding)
 
 rm -rf "$MIRROR" && mkdir -p "$MIRROR"
 
