@@ -96,6 +96,12 @@
 - [fin-sales-enablement](https://skills.meshcode.ai/skills/fin-sales-enablement/SKILL.md): Builds sales enablement assets — MEDDICC qualification scoring, discovery question sets, demo-to-value flow, and a one-page proposal structure. Use when user sa
 - [fin-sales-pipeline](https://skills.meshcode.ai/skills/fin-sales-pipeline/SKILL.md): Manages the sales pipeline — buyer-evidence stage criteria, pipeline coverage ratio (3x), sales velocity formula, win rate consistency, and stalled deal cleanup
 
+## [meshcode-ai/skills-coding](https://github.com/meshcode-ai/skills-coding)
+
+- [dev-architecture](https://skills.meshcode.ai/skills/dev-architecture/SKILL.md): System design before code — classifies a request as spike, bounded, or architectural and produces the right design artifact with an approval gate. Use when the 
+- [dev-code-review](https://skills.meshcode.ai/skills/dev-code-review/SKILL.md): Code review with severity-graded findings and evidence per claim — reviews the diff against requirements, not files in isolation. Use when the user asks for a c
+- [dev-test-design](https://skills.meshcode.ai/skills/dev-test-design/SKILL.md): Test design before implementation — turns requirements into a test-case matrix (happy path, boundary values, invalid input, edge cases) and enforces red-green-r
+
 ## [meshcode-ai/skills-design](https://github.com/meshcode-ai/skills-design)
 
 - [design-design-system](https://skills.meshcode.ai/skills/design-design-system/SKILL.md): Design system and design tokens — token layering (primitive → semantic → component), minimal token set, dark mode, and legacy migration mapping. Use when user s

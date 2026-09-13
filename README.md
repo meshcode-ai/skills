@@ -1,9 +1,9 @@
 # meshcode-ai/skills
 
-**82 open-source Agent Skills for business — SEO/AEO, marketing, copywriting, operations, business planning, research, executive/finance, design, video, and documents.** Knowledge-first skills (2KB each) for Claude Code, Codex, Cursor, Gemini CLI, and meshcode, following the open [Agent Skills](https://agentskills.io/specification) standard (`SKILL.md`). Every skill is refined knowledge — frameworks, thresholds, and output contracts — not script wrappers.
+**85 open-source Agent Skills for business and code — SEO/AEO, marketing, copywriting, operations, business planning, research, executive/finance, coding, design, video, and documents.** Knowledge-first skills (2KB each) for Claude Code, Codex, Cursor, Gemini CLI, and meshcode, following the open [Agent Skills](https://agentskills.io/specification) standard (`SKILL.md`). Every skill is refined knowledge — frameworks, thresholds, and output contracts — not script wrappers.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/skills-82-blue)](#catalog)
+[![Skills](https://img.shields.io/badge/skills-85-blue)](#catalog)
 [![Standard](https://img.shields.io/badge/agent--skills-spec-brightgreen)](https://agentskills.io/specification)
 
 ## Install
@@ -128,6 +128,14 @@ Manual: download any repo zip → extract into your project's `.meshcode/skills/
 | `fin-revops` | Aligns sales, marketing, and CS operations |
 | `fin-sales-enablement` | Builds sales enablement assets |
 | `fin-sales-pipeline` | Manages the sales pipeline |
+
+### Coding & Dev — [`meshcode-ai/skills-coding`](https://github.com/meshcode-ai/skills-coding)
+
+| Skill | What it does |
+|---|---|
+| `dev-architecture` | System design before code |
+| `dev-test-design` | Test design before implementation |
+| `dev-code-review` | Code review with severity-graded findings |
 
 ### Design — [`meshcode-ai/skills-design`](https://github.com/meshcode-ai/skills-design)
 
