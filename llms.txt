@@ -96,3 +96,21 @@
 - [fin-sales-enablement](https://skills.meshcode.ai/skills/fin-sales-enablement/SKILL.md): Builds sales enablement assets — MEDDICC qualification scoring, discovery question sets, demo-to-value flow, and a one-page proposal structure. Use when user sa
 - [fin-sales-pipeline](https://skills.meshcode.ai/skills/fin-sales-pipeline/SKILL.md): Manages the sales pipeline — buyer-evidence stage criteria, pipeline coverage ratio (3x), sales velocity formula, win rate consistency, and stalled deal cleanup
 
+## [meshcode-ai/skills-design](https://github.com/meshcode-ai/skills-design)
+
+- [design-design-system](https://skills.meshcode.ai/skills/design-design-system/SKILL.md): Design system and design tokens — token layering (primitive → semantic → component), minimal token set, dark mode, and legacy migration mapping. Use when user s
+- [design-homepage](https://skills.meshcode.ai/skills/design-homepage/SKILL.md): Homepage and landing page design — structure, hero, visual hierarchy, motion restraint, and AI-template tells. Use when user says "design a homepage", "landing 
+- [design-ui-audit](https://skills.meshcode.ai/skills/design-ui-audit/SKILL.md): UI design review — grades hierarchy, spacing, typography, color, consistency, accessibility of a page or component set, then ranks fixes by impact. Use when use
+
+## [meshcode-ai/skills-video](https://github.com/meshcode-ai/skills-video)
+
+- [video-packaging](https://skills.meshcode.ai/skills/video-packaging/SKILL.md): Video packaging — thumbnails, titles, descriptions, hashtags, and CTR diagnosis for YouTube and short-form. Use when user says "thumbnail ideas", "video title",
+- [video-script](https://skills.meshcode.ai/skills/video-script/SKILL.md): Video script writing — cold-open structure, retention checkpoints, hook formulas, and timed outlines for long-form and shorts. Use when user says "video script"
+- [video-shorts](https://skills.meshcode.ai/skills/video-shorts/SKILL.md): Short-form video (Shorts/Reels/TikTok) creation — clip selection from long-form, 9:16 reframing, burned-in captions, safe zones, render and QA. Use when user sa
+
+## [meshcode-ai/skills-docs](https://github.com/meshcode-ai/skills-docs)
+
+- [docs-docx](https://skills.meshcode.ai/skills/docs-docx/SKILL.md): Document generation — report/proposal structure, heading hierarchy, styles, and producing verified .docx files via pandoc or docx libraries. Use when user says 
+- [docs-pdf](https://skills.meshcode.ai/skills/docs-pdf/SKILL.md): PDF production — print vs screen route selection, page layout, font embedding, and export verification for reports, ebooks, and one-pagers. Use when user says "
+- [docs-pptx](https://skills.meshcode.ai/skills/docs-pptx/SKILL.md): Presentation generation — deck storyline, slide-by-slide outline, chart choice, and generating/editing .pptx files with overflow and font QA. Use when user says
+

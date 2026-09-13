@@ -1,9 +1,9 @@
 # meshcode-ai/skills
 
-**73 open-source Agent Skills for business — SEO/AEO, marketing, copywriting, operations, business planning, research, and executive/finance.** Knowledge-first skills (2KB each) for Claude Code, Codex, Cursor, Gemini CLI, and meshcode, following the open [Agent Skills](https://agentskills.io/specification) standard (`SKILL.md`). Every skill is refined knowledge — frameworks, thresholds, and output contracts — not script wrappers.
+**82 open-source Agent Skills for business — SEO/AEO, marketing, copywriting, operations, business planning, research, executive/finance, design, video, and documents.** Knowledge-first skills (2KB each) for Claude Code, Codex, Cursor, Gemini CLI, and meshcode, following the open [Agent Skills](https://agentskills.io/specification) standard (`SKILL.md`). Every skill is refined knowledge — frameworks, thresholds, and output contracts — not script wrappers.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/skills-73-blue)](#catalog)
+[![Skills](https://img.shields.io/badge/skills-82-blue)](#catalog)
 [![Standard](https://img.shields.io/badge/agent--skills-spec-brightgreen)](https://agentskills.io/specification)
 
 ## Install
@@ -128,6 +128,31 @@ Manual: download any repo zip → extract into your project's `.meshcode/skills/
 | `fin-revops` | Aligns sales, marketing, and CS operations |
 | `fin-sales-enablement` | Builds sales enablement assets |
 | `fin-sales-pipeline` | Manages the sales pipeline |
+
+### Design — [`meshcode-ai/skills-design`](https://github.com/meshcode-ai/skills-design)
+
+| Skill | What it does |
+|---|---|
+| `design-homepage` | Homepage and landing page design |
+| `design-ui-audit` | UI design review |
+| `design-design-system` | Design system and design tokens |
+
+### Video — [`meshcode-ai/skills-video`](https://github.com/meshcode-ai/skills-video)
+
+| Skill | What it does |
+|---|---|
+| `video-shorts` | Short-form video (Shorts/Reels/TikTok) creation |
+| `video-script` | Video script writing |
+| `video-packaging` | Video packaging (thumbnail/title/CTR) |
+
+### Documents — [`meshcode-ai/skills-docs`](https://github.com/meshcode-ai/skills-docs)
+
+| Skill | What it does |
+|---|---|
+| `docs-pptx` | Presentation (PPTX) generation |
+| `docs-docx` | Document (DOCX) generation |
+| `docs-pdf` | PDF production |
+
 ## Search & AI visibility
 
 - Skill index for agents: [`index.json`](index.json) · AI-readable catalog: [`llms.txt`](llms.txt) · AI crawlers: fully allowed ([`robots.txt`](robots.txt))
